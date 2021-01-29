@@ -1,0 +1,83 @@
+@media only screen and (max-width: 600px) {
+
+  .app-header {
+    padding: 60px 0;
+
+    h1 {
+      font-size: 22px;
+    }
+    h2 {
+      font-size: 16px;
+      padding: 10px 30px;
+      margin-top: 10px;
+
+        span {
+          display: block;
+          padding-top: 12px;
+        }
+    }
+  }
+
+  .container-payment-method {
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .toggle-label {
+    margin: 0;
+  }
+
+  .price-section {
+    width: 85%;
+    height: auto;
+
+      .price-section-header {
+        padding: 40px 25px;
+      }
+  }
+
+  .slider-price {
+    position: relative;
+    bottom: 80px;
+    
+  }
+
+  .price-section {
+    margin-bottom: 70px;
+
+    .price-month-container {
+      flex-direction: column;
+
+      .price-month {
+        position: relative;
+        top: 50px;
+      }
+    }
+
+    .views {
+      margin-bottom: 40px;
+    }
+  }
+
+  .discount-value {
+    span {
+      display: none;
+    }
+    .symbol-discount {
+      display: inline;
+    }
+  }
+
+  .price-section-footer-inner {
+    flex-direction: column;
+    text-align: center;
+
+      ul {
+        margin-bottom: 35px;
+      }
+
+  }
+
+}
+  

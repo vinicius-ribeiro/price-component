@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Price</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/screen.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <style data="changebg" type="text/css"></style>
+  <script src="js/app.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <div class="app-header-inner">
+      <h1>Simple, traffic-based pricing</h1>
+      <h2>Sign-up for our 30-day trial. <span>No credit card required.</span></h2>
+    </div>
+  </header><!-- header -->
+
+  <section class="price-section">
+    <header class="price-section-header">
+      <div class="price-month-container">
+        <div class="views"><span id="views-value">100K</span> Pageviews</div>
+        <div class="price-month">
+          <span class="price" id="price-value">$16.00</span>
+          <span class="time">/ month</span>
+        </div><!-- price month -->
+      </div><!-- price month container -->
+
+      <div class="slider-price">
+        <input type="range" min="20" max="100" value="50" step="20" class="slider" id="range">
+      </div><!-- slider price -->
+
+      <div class="container-payment-method">
+        <label class="toggle">
+          <span class="toggle-label">Monthly Billing</span>
+          <input type="checkbox" id="discount" class="toggle-checkbox" onclick="atualizaDesconto()">
+          <div class="toggle-switch"></div>          
+          <span class="toggle-label">Yearly Billing</span>
+        </label><!-- toggle-discount -->
+        <span class="discount-value"><i class="symbol-discount">-</i> 25% <span>discount</span></span>
+      </div><!-- container-payment-method -->
+    </header><!-- price section header -->
+    <footer class="price-section-footer">
+      <section class="price-section-footer-inner">
+        <div class="container-list">
+          <ul>
+            <li>Unlimited websites</li>
+            <li>100% data ownership</li>
+            <li>Email reports</li>
+          </ul>
+        </div>
+        <div class="button-start">
+          <button>Start my trial</button>
+        </div>
+      </section>
+    </footer>
+  </section><!-- price-section -->
+
+  
+
+</body>
+</html>

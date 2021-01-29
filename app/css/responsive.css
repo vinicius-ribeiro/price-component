@@ -1,0 +1,73 @@
+@media only screen and (max-width: 600px) {
+  .app-header {
+    padding: 60px 0;
+  }
+  .app-header h1 {
+    font-size: 22px;
+  }
+  .app-header h2 {
+    font-size: 16px;
+    padding: 10px 30px;
+    margin-top: 10px;
+  }
+  .app-header h2 span {
+    display: block;
+    padding-top: 12px;
+  }
+  .container-payment-method {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .toggle-label {
+    margin: 0;
+  }
+  .price-section {
+    width: 85%;
+    height: auto;
+  }
+  .price-section .price-section-header {
+    padding: 40px 25px;
+  }
+  .slider-price {
+    position: relative;
+    bottom: 80px;
+  }
+  .price-section {
+    margin-bottom: 70px;
+  }
+  .price-section .price-month-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .price-section .price-month-container .price-month {
+    position: relative;
+    top: 50px;
+  }
+  .price-section .views {
+    margin-bottom: 40px;
+  }
+  .discount-value span {
+    display: none;
+  }
+  .discount-value .symbol-discount {
+    display: inline;
+  }
+  .price-section-footer-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .price-section-footer-inner ul {
+    margin-bottom: 35px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
